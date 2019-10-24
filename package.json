@@ -1,0 +1,29 @@
+{
+  "name": "proxy-server-quetzalcaotl",
+  "version": "1.0.0",
+  "description": "SoundClout Proxy Server (quetzalcaotl)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quetzalcaotl/proxy-server-quetzalcaotl.git"
+  },
+  "author": "DJM",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/quetzalcaotl/proxy-server-quetzalcaotl/issues"
+  },
+  "homepage": "https://github.com/quetzalcaotl/proxy-server-quetzalcaotl#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  }
+}
