@@ -1,19 +1,50 @@
-#Display, #Info-Comments, #Sidebar, #Player {
+#bottom-content {
   position: absolute;
-  background-color: rgb(20, 20, 20);
+  top: 380px;
+  width: 1240px;
+  left: 1.5%;
+  right: 1.5%;
 }
-#Display {
-  top: 0px;
-}
-#Info-Comments {
-  top: 55%;
+#comments-outer-container{
+  display: inline-block;
+  position: absolute;
   left: 0px;
+  width: 875px;
+  background-color: white;
+  padding: 20px 30px;
+  padding-right: 0px;
 }
-#Sidebar {
-  top: 55%;
+#comments-inner-container {
+  height: 410px; 
+  margin: 0px;
+  border: 0px;
+  padding: 0px;
+  padding-right: 20px;
+  padding-bottom: 50px;
+}
+#Sidebar-outer-container {
+  display: inline-block;
+  position: absolute;
   right: 0px;
+  width: 331px;
+  background-color: white;
+  padding: 20px 30px;
+  padding-left: 0px;
 }
-#Player {
-  bottom: 0px;
-  left: 40%;
+#Sidebar ul {
+  list-style: none;
+}
+#Sidebar-inner-container {
+  height: 410px;
+  margin: 0px;
+  border: 0px;
+  padding: 0px;
+  padding-left: 25px;
+  padding-bottom: 50px;
+  border-left: 1px solid rgb(242, 242, 242);
+}
+
+#comments .comment-container {
+  position: relative;
+  top: auto;
 }
